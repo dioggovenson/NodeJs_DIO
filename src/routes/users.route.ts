@@ -1,7 +1,5 @@
 import { Router, Request, Response, NextFunction } from "express";
 import { StatusCodes } from 'http-status-codes'
-import { DatabaseError } from "pg";
-import errorHandler from "../../middlewares/error-handler.middleware";
 import userRepository from "../repositories/user.repository";
 // get /users
 // get /users/:uuid

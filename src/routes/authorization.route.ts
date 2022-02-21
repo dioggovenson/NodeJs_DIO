@@ -3,7 +3,7 @@ import ForbiddenError from "../models/errors/forbidden.error.model";
 import userRepository from "../repositories/user.repository";
 import JWT from 'jsonwebtoken'
 import { StatusCodes } from "http-status-codes";
-import basicAuthenticationMiddleware from "../../middlewares/basic.authentication.middleware";
+import basicAuthenticationMiddleware from "../middlewares/basic.authentication.middleware";
 
 const authorizationRoute = Router();
 
